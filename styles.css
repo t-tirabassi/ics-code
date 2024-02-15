@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.navbar a{
+  background-color: blue;
+  color: white;
+  margin: 0.16em;
+  padding: 0.64em;
+  text-decoration-line: none;
+}
+.logo{
+  height: 100%;
+}
+.input{
+  float: left;
+  width: 16%;
+}
+.editing-area{
+  float: left;
+  width: 80%;
+  border-left: 1px solid black;
+}
+textarea{
+  font-family: monospace;
+}
